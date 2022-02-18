@@ -171,7 +171,7 @@ img{
   #check{
     display: none;
   }
-  @media (max-width: 952px){
+  @media (max-width: 450px){
     label.logo{
       font-size: 30px;
       padding-left: 50px;
@@ -199,6 +199,19 @@ img{
   .text{
     margin-left: 125px;
     margin-right: 125px;
+}
+.item {
+  text-align: center;
+  width: 400px;
+  background-color: #24252A;
+  user-select: none;
+  margin: 0 auto;
+  margin-top: 3vw;
+}
+.item img {
+  width: 400px;
+  height: 200px;
+  user-select: none;
 }
   }
   @media (max-width: 858px){
